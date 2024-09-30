@@ -19,18 +19,18 @@ const HeroArea = () => {
                 data-wow-delay=".3s"
               >
                 <span className="mb-5 block text-lg font-medium leading-tight text-black dark:text-white sm:text-[22px] xl:text-[22px]">
-                Crafted for App, Software and SaaS Sites
+                  Welcome to PlayShop
                 </span>
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">
-                Next.js Template and SaaS
+                  Discover the Ultimate Gaming Experience with
                   <span className="inline bg-gradient-1 bg-clip-text text-transparent">
                     {" "}
-                    Starter Kit{" "}
+                    PlayShop{" "}
                   </span>
-                  Site.
                 </h1>
                 <p className="mb-10 max-w-[475px] text-base leading-relaxed text-body">
-                Website template and starter kit crafted to build fully functional mobile app landing pages and software websites.
+                  PlayShop is your one-stop destination for the latest and
+                  greatest games. Join our community and start playing today!
                 </p>
 
                 <div className="flex flex-wrap items-center">
@@ -84,8 +84,8 @@ const HeroArea = () => {
                       </svg>
                     </span>
                     <span className="text-base font-medium">
-                      <span className="block text-sm"> Watch Demo </span>
-                      See how it works
+                      <span className="block text-sm"> Watch Trailer </span>
+                      See the Game in Action
                     </span>
                   </Link>
 

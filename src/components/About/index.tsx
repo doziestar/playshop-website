@@ -94,15 +94,16 @@ const About = () => {
                   data-wow-delay=".3s"
                 >
                   <span className="mb-4 block text-lg font-medium text-primary md:text-[22px]">
-                    Track Audience Activities
+                    About PlayShop
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-                    Track Your Audience Activities
+                    Discover the Joy of Virtual Shopping
                   </h2>
                   <p className="mb-[30px] text-base leading-relaxed text-body">
-                    Schedule your posts for times when your audience is most
-                    active. Choose from our best-time predictions, or create
-                    your own publishing schedule.
+                    PlayShop is an exciting virtual shopping game where you can
+                    experience the thrill of running your own store. Manage
+                    inventory, serve customers, and grow your business in this
+                    fun and engaging simulation.
                   </p>
 
                   <div className="mb-[30px] flex items-center">
@@ -111,10 +112,11 @@ const About = () => {
                     </div>
                     <div>
                       <h5 className="text-xl font-medium text-black dark:text-white">
-                        Lorem ipsum dolor.
+                        Customize Your Shop
                       </h5>
                       <p className="text-base text-body">
-                        Ut ultricies lacus non fermentum ultrices.
+                        Design and decorate your store to attract more
+                        customers.
                       </p>
                     </div>
                   </div>
@@ -125,10 +127,10 @@ const About = () => {
                     </div>
                     <div>
                       <h5 className="text-xl font-medium text-black dark:text-white">
-                        Lorem ipsum dolor.
+                        Manage Inventory
                       </h5>
                       <p className="text-base text-body">
-                        Ut ultricies lacus non fermentum ultrices.
+                        Stock your shelves and keep track of your products.
                       </p>
                     </div>
                   </div>
@@ -145,22 +147,22 @@ const About = () => {
                   data-wow-delay=".2s"
                 >
                   <span className="mb-4 block text-lg font-medium text-primary md:text-[22px]">
-                    Create Audience Reports
+                    Game Features
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-                    Know More About Your Audience.
+                    Immersive Shopping Experience
                   </h2>
                   <p className="mb-[30px] text-base leading-relaxed text-body">
-                    Schedule your posts for times when your audience is most
-                    active. Choose from our best-time predictions, or create
-                    your own publishing schedule.
+                    PlayShop offers a realistic and engaging virtual shopping
+                    experience. Interact with customers, manage your finances,
+                    and climb the ranks of the retail world.
                   </p>
 
                   <Link
                     href="#"
                     className="inline-block rounded-md bg-primary px-8 py-[10px] text-base font-medium text-white hover:bg-opacity-90"
                   >
-                    Know More
+                    Start Playing
                   </Link>
                 </div>
               </div>

@@ -13,8 +13,8 @@ import Clients from "@/components/Clients";
 import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
-  title: "Appline - Next.js App & Software Template and Starter Kit",
-  description: "Website template and starter kit crafted to build fully functional mobile app landing pages and software websites",
+  title: "Playshop - Play with your friends",
+  description: "Playshop is a platform for playing games with your friends",
 };
 
 export default function Home() {
@@ -24,7 +24,6 @@ export default function Home() {
       <Features />
       <About />
       <WorkProcess />
-      <Pricing />
       <Screens />
       <Cta />
       <Testimonials />

@@ -25,16 +25,16 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "For Functional App Sites",
+    title: "Immersive Gameplay",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Experience the thrill of immersive gameplay with stunning graphics and engaging storylines.",
   },
   {
     icon: (
       <svg
         width="44"
         height="44"
-        viewBox="0 0 44 44"
+        viewBox="0  0 44 44"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -55,9 +55,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "High-quality Design",
+    title: "High-quality Graphics",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Enjoy high-quality graphics that bring the game world to life with vibrant colors and detailed environments.",
   },
   {
     icon: (
@@ -85,9 +85,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Essential Integrations",
+    title: "Seamless Integrations",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Integrate seamlessly with various platforms and devices for a smooth gaming experience.",
   },
   {
     icon: (
@@ -117,7 +117,7 @@ const featuresData: Feature[] = [
     ),
     title: "Essential Components",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Access essential components that enhance your gaming experience and provide additional functionalities.",
   },
   {
     icon: (
@@ -141,9 +141,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Fully Customizable",
+    title: "Customizable Features",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Customize your gaming experience with a variety of features and settings to suit your preferences.",
   },
   {
     icon: (
@@ -171,9 +171,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Regular Free Updates",
+    title: "Regular Updates",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Stay up-to-date with regular updates that bring new features, improvements, and bug fixes.",
   },
 ];
 
@@ -187,12 +187,12 @@ const Features = () => {
             data-wow-delay=".2s"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-              Full-Featured Next.js Starter Kit
+              Playshop: The Ultimate Gaming Experience
             </h2>
             <p className="text-base text-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              Dive into the world of Playshop, where you can enjoy immersive
+              gameplay, high-quality graphics, and seamless integrations.
+              Customize your experience and stay updated with regular updates.
             </p>
           </div>
         </div>
