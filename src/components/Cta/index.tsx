@@ -6,19 +6,19 @@ import Link from "next/link";
 const Cta = () => {
   return (
     <>
-      <section id="cta" className="relative z-10 pt-[110px]">
+      <section id="cta" className="relative z-10 pt-[110px] ">
         <div className="container max-w-[1390px]">
-          <div className="rounded-2xl bg-white px-10 pt-14 shadow-card dark:bg-dark dark:shadow-card-dark sm:px-20 lg:px-12 lg:pt-20 xl:px-20">
+          <div className="dark:shadow-card-primary rounded-2xl bg-primary/20 bg-[url(/images/homepage-bg.png)] px-10 pt-14 sm:px-20 lg:px-12 lg:pt-20 xl:px-20">
             <div className="-mx-4 flex flex-wrap">
               <div className="w-full self-center px-4 lg:w-1/2">
                 <div
-                  className="wow fadeInUp mx-auto max-w-[530px] text-center lg:ml-0 lg:text-left"
+                  className="wow fadeInUp mx-auto max-w-[530px]  text-center lg:ml-0 lg:text-left"
                   data-wow-delay=".2s"
                 >
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[38px] md:leading-tight">
                     Download Appline Now & Get started for free.
                   </h2>
-                  <p className="mb-10 text-base text-body">
+                  <p className="mb-10 text-base text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nullam lacus risus, molestie id condimentum ut, semper
                     vitae.
@@ -28,7 +28,7 @@ const Cta = () => {
                     <div className="inline-block px-[10px]">
                       <Link
                         href="#"
-                        className="mb-5 inline-flex items-center rounded-md bg-primary py-[10px] pl-4 pr-5 text-white hover:bg-opacity-90"
+                        className="mb-5 inline-flex items-center rounded-md bg-secondary py-[10px] pl-4 pr-5 text-white hover:bg-opacity-90"
                       >
                         <span className="mr-[10px]">
                           <svg
@@ -58,7 +58,7 @@ const Cta = () => {
                     <div className="inline-block px-[10px]">
                       <Link
                         href="#"
-                        className="mb-5 inline-flex items-center rounded-md bg-black py-[10px] pl-4 pr-5 text-white hover:bg-opacity-90 dark:bg-white dark:text-black dark:hover:bg-opacity-90"
+                        className="mb-5 inline-flex items-center rounded-md bg-black py-[10px] pl-4 pr-5 text-white hover:bg-opacity-90 dark:bg-white/80 dark:text-black dark:hover:bg-opacity-90"
                       >
                         <span className="mr-[10px]">
                           <svg

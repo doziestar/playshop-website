@@ -95,7 +95,7 @@ const WorkProcess = () => {
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
               How it Works?
             </h2>
-            <p className="text-base text-body">
+            <p className="text-base text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
               ante in maximus.
@@ -104,7 +104,7 @@ const WorkProcess = () => {
         </div>
 
         <div className="container max-w-[1390px]">
-          <div className="rounded-2xl bg-white px-5 pb-14 pt-14 shadow-card dark:bg-dark dark:shadow-card-dark md:pb-1 lg:pb-5 lg:pt-20 xl:px-10">
+          <div className="rounded-2xl px-5 pb-14 pt-14   md:pb-1 lg:pb-5 lg:pt-20 xl:px-10">
             <div className="-mx-4 flex flex-wrap justify-center">
               {workProcessData.map((item, index) => (
                 <div key={index} className="w-full px-4 md:w-1/2 lg:w-1/3">
@@ -112,13 +112,13 @@ const WorkProcess = () => {
                     className="wow fadeInUp group mx-auto mb-[60px] max-w-[310px] text-center"
                     data-wow-delay=".2s"
                   >
-                    <div className="mx-auto mb-8 flex h-[90px] w-[90px] items-center justify-center rounded-3xl bg-gray text-primary duration-300 group-hover:bg-primary group-hover:text-white dark:bg-[#2A2E44] dark:text-white dark:group-hover:bg-primary">
+                    <div className="mx-auto mb-8 flex h-[90px] w-[90px] items-center justify-center rounded-3xl bg-gray/80 text-primary duration-300 group-hover:bg-primary  group-hover:text-white">
                       {item.icon}
                     </div>
                     <h3 className="mb-4 text-xl font-semibold text-black dark:text-white sm:text-[22px] xl:text-[26px]">
                       {item.title}
                     </h3>
-                    <p className="text-base text-body">{item.description}</p>
+                    <p className="text-base text-white">{item.description}</p>
                   </div>
                 </div>
               ))}

@@ -11,6 +11,13 @@
 
   body {
     @apply font-inter bg-white dark:bg-black;
+    background-image: linear-gradient(
+		to bottom,
+		#302ED0 0%,
+		#312ed0a4 20%,
+		#863ef2c0 90%,
+		#863EF2 100%
+	);
   }
 }
 
