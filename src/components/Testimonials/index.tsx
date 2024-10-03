@@ -49,7 +49,7 @@ const Testimonials = () => {
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
               What Client&apos;s Say
             </h2>
-            <p className="text-base text-body">
+            <p className="text-base text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
               ante in maximus.
@@ -62,11 +62,11 @@ const Testimonials = () => {
             {testimonialData.map((item, index) => (
               <div key={index} className="w-full px-6 lg:w-1/2">
                 <div
-                  className="wow fadeInUp mb-[50px] rounded-lg bg-white px-7 py-9 shadow-card dark:bg-dark dark:shadow-card-dark sm:px-9 lg:px-7 xl:px-9"
+                  className="wow fadeInUp mb-[50px] rounded-lg bg-dark/20 px-7 py-9 shadow-card-dark sm:px-9 lg:px-7 xl:px-9"
                   data-wow-delay=".2s"
                 >
-                  <div className="mb-5 border-b border-stroke dark:border-stroke-dark">
-                    <p className="pb-9 text-base text-body">{item.quote}</p>
+                  <div className="mb-5 border-b border-white/30">
+                    <p className="pb-9 text-base text-white">{item.quote}</p>
                   </div>
 
                   <div className="items-center justify-between sm:flex lg:block xl:flex">
@@ -84,7 +84,7 @@ const Testimonials = () => {
                         <h5 className="text-base font-medium text-black dark:text-white">
                           {item.authorName}
                         </h5>
-                        <p className="text-sm text-body">{item.authorRole}</p>
+                        <p className="text-sm text-white">{item.authorRole}</p>
                       </div>
                     </div>
 

@@ -93,7 +93,7 @@ const About = () => {
                   className="wow fadeInUp lg:ml-auto lg:max-w-[510px]"
                   data-wow-delay=".3s"
                 >
-                  <span className="mb-4 block text-lg font-medium text-primary md:text-[22px]">
+                  <span className="mb-4 block text-lg font-medium text-white md:text-[22px]">
                     About PlayShop
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
@@ -146,7 +146,7 @@ const About = () => {
                   className="wow fadeInUp lg:max-w-[510px]"
                   data-wow-delay=".2s"
                 >
-                  <span className="mb-4 block text-lg font-medium text-primary md:text-[22px]">
+                  <span className="mb-4 block text-lg font-medium text-white md:text-[22px]">
                     Game Features
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
@@ -160,7 +160,7 @@ const About = () => {
 
                   <Link
                     href="#"
-                    className="inline-block rounded-md bg-primary px-8 py-[10px] text-base font-medium text-white hover:bg-opacity-90"
+                    className="inline-block rounded-md bg-secondary px-8 py-[10px] text-base font-medium text-white hover:bg-opacity-90"
                   >
                     Start Playing
                   </Link>

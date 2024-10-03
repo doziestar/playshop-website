@@ -13,7 +13,7 @@ const FAQItem = ({ faqData }: { faqData: FaqData }) => {
 
   return (
     <>
-      <div className="faq border-b border-stroke last-of-type:border-none dark:border-stroke-dark">
+      <div className="faq border-b  last-of-type:border-none dark:border-white/30">
         <button
           onClick={() => {
             handleFaqToggle(id);

@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { signOut, useSession } from "next-auth/react";
 import { Menu } from "@/types/menu";
 import { onScroll } from "@/utils/scrollActive";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import DarkModeSwitcher from "@/components/Header/DarkModeSwitcher";
-import GlobalSearchModal from "@/components/GlobalSearch";
 
 const menuData: Menu[] = [
   {
@@ -37,8 +34,6 @@ const Header = () => {
       window.removeEventListener("scroll", onScroll);
     };
   }, []);
-
-  const { data: session } = useSession();
 
   const pathUrl = usePathname();
   // Navbar toggle
@@ -79,7 +74,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`navbar left-0 top-0 z-50 w-full border-stroke bg-white dark:border-stroke-dark dark:bg-black ${
+        className={`navbar left-0 top-0 z-50 w-full border-transparent ${
           sticky
             ? "fixed border-b bg-opacity-95 backdrop-blur-sm dark:bg-opacity-95"
             : "absolute"
