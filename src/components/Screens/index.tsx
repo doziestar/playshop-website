@@ -18,12 +18,12 @@ const Screens = () => {
             data-wow-delay=".2s"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-              App Screenshots
+              PlayShop in Action
             </h2>
             <p className="text-base text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              Get a glimpse of the exciting gameplay and shopping experience
+              that awaits you in PlayShop. From thrilling sports action to
+              stylish apparel browsing, every screen is an adventure.
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Screens = () => {
                     width={265}
                     height={563}
                     src={"/images/screens/screen-1-light.png"}
-                    alt="screenshot"
+                    alt="Snowboarding gameplay"
                     className="mx-auto w-full rounded-2xl"
                   />
                 </div>
@@ -83,7 +83,7 @@ const Screens = () => {
                     width={265}
                     height={573}
                     src={"/images/screens/screen-2-light.png"}
-                    alt="screenshot"
+                    alt="Golfing gameplay"
                     className="mx-auto w-full rounded-2xl"
                   />
                 </div>
@@ -95,7 +95,7 @@ const Screens = () => {
                     width={265}
                     height={573}
                     src={"/images/screens/screen-3-light.png"}
-                    alt="screenshot"
+                    alt="Surfing gameplay"
                     className="mx-auto w-full rounded-2xl"
                   />
                 </div>

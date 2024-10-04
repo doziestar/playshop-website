@@ -7,10 +7,6 @@ import FsLightbox from "fslightbox-react";
 
 const HeroArea = () => {
   const [toggler, setToggler] = useState(false);
-  // #10D4FF
-  // #2D44BE
-  // #9D3AFF
-  // #0B2ACB
 
   return (
     <>
@@ -22,11 +18,8 @@ const HeroArea = () => {
                 className="wow fadeInUp mx-auto mb-12 text-center lg:mb-0 lg:max-w-[800px]"
                 data-wow-delay=".3s"
               >
-                {/* <span className="mb-5 block text-lg font-medium leading-tight text-white sm:text-[22px] xl:text-[22px]">
-                  Welcome to PlayShop
-                </span> */}
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">
-                  Ultimate Gaming Experience with
+                  Play, Shop, and Earn with
                   <span className="inline bg-gradient-1 bg-clip-text text-transparent">
                     {" "}
                     PlayShop{" "}
@@ -44,7 +37,7 @@ const HeroArea = () => {
                   width={300}
                   height={500}
                   src={"/images/hero/hero-light.png"}
-                  alt="hero image"
+                  alt="PlayShop game screenshot"
                   className="mx-auto max-w-full"
                 />
                 <div className="max-auto absolute left-1/2 right-0 top-0 -z-10 aspect-square w-[400px] -translate-x-1/2 rounded-full bg-gradient-1">
@@ -117,8 +110,9 @@ const HeroArea = () => {
             </div>
 
             <p className="mx-auto mb-10 mt-12 w-full text-center text-base leading-relaxed text-white">
-              PlayShop is your one-stop destination for the latest and greatest
-              games. Join our community and start playing today!
+              PlayShop revolutionizes community-brand interactions by merging
+              retail experiences with mobile gaming. Play exciting sports, earn
+              coins, and get discounts on real clothing items!
             </p>
 
             <div className="flex flex-wrap items-center">

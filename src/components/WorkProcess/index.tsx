@@ -25,9 +25,9 @@ const workProcessData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Install the App",
+    title: "Download PlayShop",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Get started by downloading the PlayShop app from your device's app store. It's free and easy to install!",
   },
   {
     icon: (
@@ -51,9 +51,9 @@ const workProcessData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Setup your profile",
+    title: "Create Your Profile",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Set up your player profile, customize your avatar, and choose your preferred sports to get personalized game experiences.",
   },
   {
     icon: (
@@ -66,7 +66,11 @@ const workProcessData: Feature[] = [
       >
         <g clipPath="url(#clip0_40_18)">
           <path
-            d="M5.26834 7.44836C7.20178 5.51458 9.79501 4.38351 12.5277 4.28211C15.2603 4.18072 17.9302 5.11651 20.0017 6.9017C22.0713 5.11948 24.7377 4.18475 27.467 4.28463C30.1964 4.38452 32.7873 5.51165 34.7211 7.44037C36.6549 9.3691 37.7888 11.9571 37.8959 14.6862C38.0029 17.4153 37.0751 20.0841 35.2983 22.1584L22.3567 35.1417C21.7621 35.7365 20.9646 36.0845 20.1242 36.1161C19.2838 36.1476 18.4625 35.8603 17.825 35.3117L17.6417 35.1434L4.70168 22.1584C2.92583 20.0859 1.99764 17.4195 2.1027 14.6923C2.20776 11.9651 3.33832 9.37805 5.26834 7.44836ZM7.62501 9.80503C6.26208 11.1683 5.47643 13.0041 5.43112 14.9313C5.38581 16.8585 6.08432 18.7292 7.38168 20.155L7.62501 20.4117L20 32.7867L28.8383 23.9467L22.9467 18.055L21.18 19.8217C20.7158 20.2861 20.1646 20.6546 19.558 20.906C18.9514 21.1575 18.3012 21.287 17.6445 21.2871C16.3183 21.2874 15.0463 20.7609 14.1083 19.8234C13.1704 18.8858 12.6432 17.6141 12.6429 16.2879C12.6426 14.9617 13.1691 13.6897 14.1067 12.7517L17.61 9.2467C16.2158 8.13399 14.4707 7.55451 12.6878 7.61224C10.9049 7.66997 9.20099 8.36112 7.88168 9.5617L7.62501 9.80503ZM21.7683 14.5184C22.0809 14.2059 22.5047 14.0304 22.9467 14.0304C23.3886 14.0304 23.8125 14.2059 24.125 14.5184L31.195 21.5884L32.375 20.4117C33.7608 19.0269 34.5497 17.1549 34.5731 15.196C34.5964 13.237 33.8524 11.3467 32.5 9.92929C31.1477 8.51185 29.2944 7.67981 27.3366 7.61112C25.3787 7.54242 23.4717 8.24253 22.0233 9.5617L21.7683 9.80503L16.465 15.1084C16.1761 15.3971 16.0033 15.7818 15.9793 16.1895C15.9554 16.5972 16.0819 16.9995 16.335 17.32L16.465 17.465C16.7537 17.7539 17.1384 17.9267 17.5461 17.9507C17.9538 17.9747 18.3561 17.8481 18.6767 17.595L18.8217 17.465L21.7683 14.5184Z"
+            d="M25.3333 37H8.66667C8.22464 37 7.80072 36.8244 7.48816 36.5118C7.17559 36.1993 7 35.7754 7 35.3333V18.6667H25.3333V37ZM37 15.3333H7V8.66667C7 8.22464 7.17559 7.80072 7.48816 7.48816C7.80072 7.17559 8.22464 7 8.66667 7H35.3333C35.7754 7 36.1993 7.17559 36.5118 7.48816C36.8244 7.80072 37 8.22464 37 8.66667V15.3333Z"
+            fill="currentColor"
+          />
+          <path
+            d="M28.6667 37V18.6667H37V35.3333C37 35.7754 36.8244 36.1993 36.5118 36.5118C36.1993 36.8244 35.7754 37 35.3333 37H28.6667Z"
             fill="currentColor"
           />
         </g>
@@ -77,9 +81,9 @@ const workProcessData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Enjoy the features!",
+    title: "Play and Shop",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Enjoy exciting sports games, earn coins, and browse through stylish apparel items. Like your favorites to earn more coins!",
   },
 ];
 
@@ -93,18 +97,17 @@ const WorkProcess = () => {
             data-wow-delay=".2s"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-              How it Works?
+              How PlayShop Works
             </h2>
             <p className="text-base text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              Get started with PlayShop in just a few simple steps. Download,
+              play, and start earning rewards today!
             </p>
           </div>
         </div>
 
         <div className="container max-w-[1390px]">
-          <div className="rounded-2xl px-5 pb-14 pt-14   md:pb-1 lg:pb-5 lg:pt-20 xl:px-10">
+          <div className="rounded-2xl px-5 pb-14 pt-14 md:pb-1 lg:pb-5 lg:pt-20 xl:px-10">
             <div className="-mx-4 flex flex-wrap justify-center">
               {workProcessData.map((item, index) => (
                 <div key={index} className="w-full px-4 md:w-1/2 lg:w-1/3">
@@ -112,7 +115,7 @@ const WorkProcess = () => {
                     className="wow fadeInUp group mx-auto mb-[60px] max-w-[310px] text-center"
                     data-wow-delay=".2s"
                   >
-                    <div className="mx-auto mb-8 flex h-[90px] w-[90px] items-center justify-center rounded-3xl bg-gray/80 text-primary duration-300 group-hover:bg-primary  group-hover:text-white">
+                    <div className="mx-auto mb-8 flex h-[90px] w-[90px] items-center justify-center rounded-3xl bg-gray/80 text-primary duration-300 group-hover:bg-primary group-hover:text-white">
                       {item.icon}
                     </div>
                     <h3 className="mb-4 text-xl font-semibold text-black dark:text-white sm:text-[22px] xl:text-[26px]">

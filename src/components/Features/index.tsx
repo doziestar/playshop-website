@@ -25,9 +25,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Immersive Gameplay",
+    title: "Unique Gameplay Concept",
     description:
-      "Experience the thrill of immersive gameplay with stunning graphics and engaging storylines.",
+      "Experience a revolutionary blend of mobile gaming and retail shopping, where your in-game achievements translate to real-world discounts.",
   },
   {
     icon: (
@@ -55,9 +55,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "High-quality Graphics",
+    title: "Multiple Sports Levels",
     description:
-      "Enjoy high-quality graphics that bring the game world to life with vibrant colors and detailed environments.",
+      "Dive into thrilling sports experiences including Snowboarding, Golfing, and Surfing, each with unique environments and challenges.",
   },
   {
     icon: (
@@ -85,9 +85,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Seamless Integrations",
+    title: "Exciting Power-ups",
     description:
-      "Integrate seamlessly with various platforms and devices for a smooth gaming experience.",
+      "Enhance your gameplay with various power-ups like Speed Boost, Vision Goggles, and Bubble Defense Apparel for an extra edge.",
   },
   {
     icon: (
@@ -115,9 +115,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Essential Components",
+    title: "Interactive Shopping",
     description:
-      "Access essential components that enhance your gaming experience and provide additional functionalities.",
+      "Browse and like stylish apparel items to earn coins, influencing future in-game clothing options and unlocking discounts.",
   },
   {
     icon: (
@@ -141,9 +141,9 @@ const featuresData: Feature[] = [
         </defs>
       </svg>
     ),
-    title: "Customizable Features",
+    title: "Community-Driven Content",
     description:
-      "Customize your gaming experience with a variety of features and settings to suit your preferences.",
+      "Your preferences shape the game's future collaborations with brands, ensuring a personalized and engaging experience.",
   },
   {
     icon: (
@@ -173,7 +173,7 @@ const featuresData: Feature[] = [
     ),
     title: "Regular Updates",
     description:
-      "Stay up-to-date with regular updates that bring new features, improvements, and bug fixes.",
+      "Enjoy frequent updates with new levels, power-ups, and clothing items to keep your gaming and shopping experience fresh and exciting.",
   },
 ];
 
@@ -187,12 +187,12 @@ const Features = () => {
             data-wow-delay=".2s"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-              Playshop: The Ultimate Gaming Experience
+              PlayShop: Where Gaming Meets Shopping
             </h2>
             <p className="text-base text-white">
-              Dive into the world of Playshop, where you can enjoy immersive
-              gameplay, high-quality graphics, and seamless integrations.
-              Customize your experience and stay updated with regular updates.
+              Discover a world where your gaming skills unlock real-world
+              rewards. PlayShop offers an innovative blend of exciting gameplay
+              and interactive shopping experiences.
             </p>
           </div>
         </div>

@@ -97,13 +97,13 @@ const About = () => {
                     About PlayShop
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-                    Discover the Joy of Virtual Shopping
+                    Revolutionizing Gaming and Shopping
                   </h2>
                   <p className="mb-[30px] text-base leading-relaxed text-body">
-                    PlayShop is an exciting virtual shopping game where you can
-                    experience the thrill of running your own store. Manage
-                    inventory, serve customers, and grow your business in this
-                    fun and engaging simulation.
+                    PlayShop is an innovative mobile game that merges the thrill
+                    of sports gaming with the excitement of shopping. Earn coins
+                    through gameplay and use them for real-world discounts on
+                    clothing items from your favorite brands.
                   </p>
 
                   <div className="mb-[30px] flex items-center">
@@ -112,11 +112,11 @@ const About = () => {
                     </div>
                     <div>
                       <h5 className="text-xl font-medium text-black dark:text-white">
-                        Customize Your Shop
+                        Play Exciting Sports
                       </h5>
                       <p className="text-base text-body">
-                        Design and decorate your store to attract more
-                        customers.
+                        Enjoy snowboarding, golfing, and surfing in immersive
+                        environments.
                       </p>
                     </div>
                   </div>
@@ -127,10 +127,11 @@ const About = () => {
                     </div>
                     <div>
                       <h5 className="text-xl font-medium text-black dark:text-white">
-                        Manage Inventory
+                        Shop and Earn
                       </h5>
                       <p className="text-base text-body">
-                        Stock your shelves and keep track of your products.
+                        Like apparel items to earn coins and influence future
+                        in-game options.
                       </p>
                     </div>
                   </div>
@@ -150,12 +151,12 @@ const About = () => {
                     Game Features
                   </span>
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-                    Immersive Shopping Experience
+                    Immersive Gaming Experience
                   </h2>
                   <p className="mb-[30px] text-base leading-relaxed text-body">
-                    PlayShop offers a realistic and engaging virtual shopping
-                    experience. Interact with customers, manage your finances,
-                    and climb the ranks of the retail world.
+                    PlayShop offers a unique blend of sports action and shopping
+                    excitement. Tackle challenging levels, unlock power-ups, and
+                    discover new apparel items as you progress through the game.
                   </p>
 
                   <Link

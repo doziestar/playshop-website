@@ -16,12 +16,13 @@ const Cta = () => {
                   data-wow-delay=".2s"
                 >
                   <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[38px] md:leading-tight">
-                    Download Appline Now & Get started for free.
+                    Download PlayShop Now & Start Your Adventure!
                   </h2>
                   <p className="mb-10 text-base text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam lacus risus, molestie id condimentum ut, semper
-                    vitae.
+                    Join the PlayShop community today and experience the thrill
+                    of sports gaming combined with the excitement of shopping.
+                    Earn coins, unlock discounts, and discover your new favorite
+                    outfits!
                   </p>
 
                   <div className="-mx-[10px] flex flex-wrap items-center justify-center lg:justify-start">
@@ -97,7 +98,7 @@ const Cta = () => {
                     width={299}
                     height={419}
                     src={"/images/cta/cta-light.png"}
-                    alt="cta image"
+                    alt="PlayShop app preview"
                     className="mx-auto max-w-full"
                   />
 
