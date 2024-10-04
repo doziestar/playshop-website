@@ -24,7 +24,7 @@ export default function Home() {
       <WorkProcess />
       <Screens />
       <Cta />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Faq />
       <Clients />
       <Contact />
