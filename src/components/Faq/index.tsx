@@ -24,9 +24,10 @@ const Faq = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-base text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
+              Got questions about PlayShop? We've got answers! Check out our
+              frequently asked questions below to learn more about our
+              innovative gaming and shopping experience, how to earn and use
+              coins, and details about our exciting sport levels and powerups.
             </p>
           </div>
 
