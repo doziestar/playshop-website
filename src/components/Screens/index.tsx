@@ -70,7 +70,7 @@ const Screens = () => {
                   <Image
                     width={265}
                     height={563}
-                    src={"/images/screens/screen-1-light.png"}
+                    src={"/images/screens/screen.png"}
                     alt="Snowboarding gameplay"
                     className="mx-auto w-full rounded-2xl"
                   />
@@ -82,7 +82,7 @@ const Screens = () => {
                   <Image
                     width={265}
                     height={573}
-                    src={"/images/screens/screen-2-light.png"}
+                    src={"/images/screens/screen0.png"}
                     alt="Golfing gameplay"
                     className="mx-auto w-full rounded-2xl"
                   />
@@ -94,7 +94,7 @@ const Screens = () => {
                   <Image
                     width={265}
                     height={573}
-                    src={"/images/screens/screen-3-light.png"}
+                    src={"/images/screens/screen2.png"}
                     alt="Surfing gameplay"
                     className="mx-auto w-full rounded-2xl"
                   />
@@ -106,7 +106,7 @@ const Screens = () => {
                   <Image
                     width={265}
                     height={573}
-                    src={"/images/screens/screen-1-light.png"}
+                    src={"/images/screens/screen3.png"}
                     alt="screenshot"
                     className="mx-auto w-full rounded-2xl"
                   />
@@ -118,7 +118,7 @@ const Screens = () => {
                   <Image
                     width={265}
                     height={573}
-                    src={"/images/screens/screen-2-light.png"}
+                    src={"/images/screens/screen4.png"}
                     alt="screenshot"
                     className="mx-auto w-full rounded-2xl"
                   />
@@ -130,7 +130,41 @@ const Screens = () => {
                   <Image
                     width={265}
                     height={573}
-                    src={"/images/screens/screen-3-light.png"}
+                    src={"/images/screens/screen5.png"}
+                    alt="screenshot"
+                    className="mx-auto w-full rounded-2xl"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="mx-auto w-full max-w-[252px] xs:max-w-[265px]">
+                  <Image
+                    width={265}
+                    height={573}
+                    src={"/images/screens/screen6.png"}
+                    alt="screenshot"
+                    className="mx-auto w-full rounded-2xl"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="mx-auto w-full max-w-[252px] xs:max-w-[265px]">
+                  <Image
+                    width={265}
+                    height={573}
+                    src={"/images/screens/screen7.png"}
+                    alt="screenshot"
+                    className="mx-auto w-full rounded-2xl"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="mx-auto w-full max-w-[252px] xs:max-w-[265px]">
+                  <Image
+                    width={265}
+                    height={573}
+                    src={"/images/screens/screen8.png"}
                     alt="screenshot"
                     className="mx-auto w-full rounded-2xl"
                   />
