@@ -20,7 +20,7 @@ const Screens = () => {
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
               App Screenshots
             </h2>
-            <p className="text-base text-body">
+            <p className="text-base text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
               ante in maximus.
@@ -69,7 +69,7 @@ const Screens = () => {
                 <div className="mx-auto w-full max-w-[252px] xs:max-w-[265px]">
                   <Image
                     width={265}
-                    height={573}
+                    height={563}
                     src={"/images/screens/screen-1-light.png"}
                     alt="screenshot"
                     className="mx-auto w-full rounded-2xl"

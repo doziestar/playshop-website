@@ -4,7 +4,7 @@ import Link from "next/link";
 const FooterBottom = () => {
   return (
     <>
-      <div className="bg-primary py-7 dark:bg-black">
+      <div className=" py-7 ">
         <div className="container max-w-[1390px]">
           <div className="-mx-3 flex flex-wrap">
             <div className="order-last w-full px-3 lg:order-first lg:w-1/3">
@@ -18,7 +18,7 @@ const FooterBottom = () => {
                 <Link
                   href="#"
                   className="text-white opacity-70 hover:opacity-100"
-                  name="social icon"
+                  // name="social icon"
                   aria-label="social icon"
                 >
                   <svg
@@ -45,7 +45,7 @@ const FooterBottom = () => {
                 <Link
                   href="#"
                   className="text-white opacity-70 hover:opacity-100"
-                  name="social icon"
+                  // name="social icon"
                   aria-label="social icon"
                 >
                   <svg
@@ -72,7 +72,7 @@ const FooterBottom = () => {
                 <Link
                   href="#"
                   className="text-white opacity-70 hover:opacity-100"
-                  name="social icon"
+                  // name="social icon"
                   aria-label="social icon"
                 >
                   <svg
@@ -99,7 +99,7 @@ const FooterBottom = () => {
                 <Link
                   href="#"
                   className="text-white opacity-70 hover:opacity-100"
-                  name="social icon"
+                  // name="social icon"
                   aria-label="social icon"
                 >
                   <svg
