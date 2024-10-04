@@ -18,7 +18,7 @@ const About = () => {
                   <Image
                     width={294}
                     height={594}
-                    src={"/images/about/about-1-light.png"}
+                    src={"/images/screens/6.png"}
                     alt="about image"
                     className="mx-auto max-w-full"
                   />
@@ -176,7 +176,7 @@ const About = () => {
                   <Image
                     width={294}
                     height={594}
-                    src={"/images/about/about-2-light.png"}
+                    src={"/images/screens/full-screen1.png"}
                     alt="about image"
                     className="mx-auto max-w-full"
                   />

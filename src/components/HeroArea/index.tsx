@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import FsLightbox from "fslightbox-react";
+import styles from "./HeroArea.module.css";
 
 const HeroArea = () => {
   const [toggler, setToggler] = useState(false);
@@ -20,10 +21,7 @@ const HeroArea = () => {
               >
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">
                   Play, Shop, and Earn with
-                  <span className="inline bg-gradient-1 bg-clip-text text-transparent">
-                    {" "}
-                    PlayShop{" "}
-                  </span>
+                  <span className={styles["metallic-text"]}> PlayShop </span>
                 </h1>
               </div>
             </div>
@@ -36,7 +34,7 @@ const HeroArea = () => {
                 <Image
                   width={300}
                   height={500}
-                  src={"/images/hero/hero-light.png"}
+                  src={"/images/about/hero1.png"}
                   alt="PlayShop game screenshot"
                   className="mx-auto max-w-full"
                 />

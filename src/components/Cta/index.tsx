@@ -97,7 +97,7 @@ const Cta = () => {
                   <Image
                     width={299}
                     height={419}
-                    src={"/images/cta/cta-light.png"}
+                    src={"/images/screens/half1.png"}
                     alt="PlayShop app preview"
                     className="mx-auto max-w-full"
                   />

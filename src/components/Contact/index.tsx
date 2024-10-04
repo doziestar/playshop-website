@@ -10,13 +10,9 @@ const Contact = () => {
             data-wow-delay=".2s"
           >
             <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl md:text-[44px] md:leading-tight">
-              Let&apos;s Stay Connected
+              Join the PlayShop Revolution
             </h2>
-            <p className="text-base text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-              ante in maximus.
-            </p>
+            <p className="text-base text-white">Do you have any questions?</p>
           </div>
         </div>
 
